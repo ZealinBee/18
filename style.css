@@ -103,6 +103,10 @@ main button {
     font-size: 3em;
   }
 
+  .background img {
+    object-position: right;
+  }
+
   nav button {
     margin-right: 1em;
     font-size: 1em;
