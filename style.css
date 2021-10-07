@@ -104,7 +104,7 @@ main button {
   }
 
   .background img {
-    object-position: right;
+    object-position: 80% 100%;
   }
 
   nav button {
