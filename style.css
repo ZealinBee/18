@@ -63,7 +63,7 @@ nav button {
 }
 
 .logo {
-  font-size: 3em;
+  font-size: 3.6em;
   margin-left: 2em;
   color: rgb(110, 233, 115);
 }
@@ -87,7 +87,7 @@ main h1 {
 main button {
   border: none;
   background: rgb(110, 233, 115);
-  padding: 0.45rem 2.5rem;
+  padding: 0.55rem 2.5rem;
   margin-top: 2em;
   font-size: 1.25rem;
 
@@ -95,4 +95,29 @@ main button {
   color: white;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin-left: 0.5em;
+    font-size: 3em;
+  }
+
+  nav button {
+    margin-right: 1em;
+    font-size: 1em;
+    padding: 0.3em 2em;
+  }
+  main h1 {
+    font-size: revert;
+  }
+
+  main h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  main button {
+    font-size: revert;
+  }
 }
